@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gifts Store</title>
+  <link rel="preload" href="fonts/RobotoMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RobotoRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RobotoLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/GilroyRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <a href="#" class="logo header__logo">
+      <img loading="lazy" src="img/logo.svg" class="image" width="41" height="39" alt="Логотип Gift Store">
+    </a>
+    <nav class="nav" title="Главное меню" data-menu>
+      <ul class="nav__list list-reset ">
+        <li class="nav__item"><a href="#home" class="nav__link" data-menu-item data-scroll>Home</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link" data-menu-item data-scroll>About Us</a></li>
+        <li class="nav__item"><a href="#services" class="nav__link" data-menu-item data-scroll>Services</a></li>
+        <li class="nav__item"><a href="#blogs" class="nav__link" data-menu-item data-scroll>Blogs</a></li>
+      </ul>
+      <button class="btn-reset burger-close" aria-label="Закрыть меню" data-menu-close></button>
+    </nav>
+    <button class="btn-reset burger" aria-label="Открыть меню" aria-expanded="false" data-burger >
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
+    <a href="#" class="header__link" aria-label="Gift Finder">GIFT FINDER</a>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="about" id="about">
+  <div class="container about__container">
+    <div class="about__find">
+      <div class="about__find-left">
+        <h1 class="about__find-title">
+          Find a gift for your wife or girlfriend
+        </h1>
+        <p class="about__find-descr">
+          Struggling to find a gift for your wife or   girlfriend?
+          No problem!
+        </p>
+        <button class="about__find-btn btn-reset">
+          <a href="#" class="about__find-link" aria-label="Button Find gift now">Find gift now</a>
+        </button>
+      </div>
+      <div class="about__find-right">
+        <picture>
+          <source srcset="img/about-1.avif" type="image/avif">
+          <source srcset="img/about-1.webp" type="image/webp">
+          <img loading="lazy" src="img/about-1.jpg" class="image about-img" width="719" height="700" alt="Married couple">
+        </picture>
+      </div>
+    </div>
+    <div class="about__work">
+      <div class="about__work-left">
+        <picture>
+          <source srcset="img/about-2.avif" type="image/avif">
+          <source srcset="img/about-2.webp" type="image/webp">
+          <img loading="lazy" src="img/about-2.jpg" class="image about-img" width="721" height="600" alt="Thanks!">
+        </picture>
+      </div>
+      <div class="about__work-right">
+        <h3 class="about__work-title">
+          How we work
+        </h3>
+        <p class="about__work-descr">
+          We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.
+        </p>
+        <!-- <button class="about__work-btn btn-reset"> -->
+          <a href="#" class="about__work-link" aria-label="Button Learn More">
+            Learn More
+          </a>
+        <!-- </button> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="gifts" id="gifts">
+  <div class="container main__container">
+    <h3 class="gifts-title">
+      Gifts for all Occasions
+    </h3>
+    <p class="gifts-descr">
+      «Try our web app to find the best gifts for all occasions»
+    </p>
+    <ul class="gifts__list list-reset">
+      <li class="gifts__item">
+        <picture>
+          <source srcset="img/gifts-1.avif" type="image/avif">
+          <source srcset="img/gifts-1.webp" type="image/webp">
+          <img loading="lazy" src="img/gifts-1.jpg" class="image" width="270" height="270" alt="Birthday">
+        </picture>
+        <span class="gifts__item-title">Birthday</span>
+        <span class="gifts__item-more">
+          <a href="#" class="gifts__item-link" aria-label="Button See More">See More</a>
+        </span>
+      </li>
+      <li class="gifts__item">
+        <picture>
+          <source srcset="img/gifts-2.avif" type="image/avif">
+          <source srcset="img/gifts-2.webp" type="image/webp">
+          <img loading="lazy" src="img/gifts-2.jpg" class="image" width="270" height="270" alt="Anniversary">
+        </picture>
+        <span class="gifts__item-title">Anniversary</span>
+        <span class="gifts__item-more">
+          <a href="#" class="gifts__item-link" aria-label="Button See More">See More</a>
+        </span>
+      </li>
+      <li class="gifts__item">
+        <picture>
+          <source srcset="img/gifts-3.avif" type="image/avif">
+          <source srcset="img/gifts-3.webp" type="image/webp">
+          <img loading="lazy" src="img/gifts-3.jpg" class="image" width="270" height="270" alt="Valentine's Day">
+        </picture>
+        <span class="gifts__item-title">Valentine’s Day</span>
+        <span class="gifts__item-more">
+          <a href="#" class="gifts__item-link" aria-label="Button See More">See More</a>
+        </span>
+      </li>
+      <li class="gifts__item">
+        <picture>
+          <source srcset="img/gifts-4.avif" type="image/avif">
+          <source srcset="img/gifts-4.webp" type="image/webp">
+          <img loading="lazy" src="img/gifts-4.jpg" class="image" width="270" height="270" alt="Christmas">
+        </picture>
+        <span class="gifts__item-title">Christmas</span>
+        <span class="gifts__item-more">
+          <a href="#" class="gifts__item-link" aria-label="Button See More">See More</a>
+        </span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="started" id="started">
+  <div class="container main__container">
+    <div class="started-wrap">
+      <div class="started-left">
+        <h3 class="started-title">
+          Ready to get started?
+        </h3>
+        <span class="started-text">
+          Sign up or contact us
+        </span>
+      </div>
+      <div class="started-right">
+        <a href="#" class="started-right__link started__find-btn" aria-label="Button Find gift now">Find gift now</a>
+        <a href="#" class="started-right__link started__how-btn" aria-label="Button how it works">how it works</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="blogs" id="blogs">
+  <div class="blogs__container main__container">
+    <h3 class="blogs-title">Our Best Blogs Ever</h3>
+    <p class="blogs-descr">
+      «Try our blog to find the best tips and tricks to select your gift»
+    </p>
+    <div class="blogs__card-main">
+      <picture>
+        <source srcset="img/blogs.avif" type="image/avif">
+        <source srcset="img/blogs.webp" type="image/webp">
+        <img loading="lazy" src="img/blogs.jpg" class="image blogs-img" width="400" height="370" alt="">
+      </picture>
+      <div class="blogs__card-main-descr">
+        <span class="blogs__card-main-name">Mr. John Doe</span>
+        <h4 class="blogs__card-main-title">The best way to wish your wife</h4>
+        <span class="blogs__card-main-more"><a href="#" class="blogs__card-main__link aria-label="button Read More"">
+          Read More
+        </a></span>
+      </div>
+    </div>
+    <div class="blogs__card">
+      <div class="blogs__card-left">
+        <h4 class="blogs__card-left-title">
+          Database to find the gifts for
+          your girlfriend
+        </h4>
+        <p class="blogs__card-left-descr">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore…
+        </p>
+        <span class="blogs__card-left-more"><a href="
+          #" class="blogs__card-left-link" aria-label="button Read More">
+          Read More</a></span>
+      </div>
+      <div class="blogs__card-right">
+        <h4 class="blogs__card-right-title">
+          How Artificial Intelligence read your mind to   find the best gift
+        </h4>
+        <p class="blogs__card-right-descr">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore…
+        </p>
+        <span class="blogs__card-right-more" aria-label="button Read More"><a href="
+          #" class="blogs__card-right-link">
+          Read More</a></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+  <div class="container footer__container">
+    <nav class="footer-nav" title="Главное меню" data-menu>
+      <ul class="footer-nav__list list-reset">
+        <li class="footer-nav__item"><a href="#home" class="footer-nav__link" data-scroll>Home</a></li>
+        <li class="footer-nav__item"><a href="#about" class="footer-nav__link" data-scroll>About</a></li>
+        <li class="footer-nav__item"><a href="#services" class="footer-nav__link" data-scroll>Service</a></li>
+        <li class="footer-nav__item"><a href="#blogs" class="footer-nav__link" data-scroll>Blog</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-border">
+
+    </div>
+
+    <div class="footer-privacy">
+      <span class="footer-text">
+        © 2010 — 2020
+      </span>
+      <span class="footer-terms"></span>
+      Privacy — Terms
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
